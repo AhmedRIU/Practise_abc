@@ -1,0 +1,13 @@
+name: MyProjectApp
+
+on:
+ push:
+   branch: [ main ]
+
+jobs:
+  Demo:
+    runs-on: ubuntu-latest
+
+steps:
+  -name: Greeting
+   run: echo"Hello world"
